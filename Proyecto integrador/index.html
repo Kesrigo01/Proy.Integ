@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Title</title>
+
+        <style>
+            h1{
+                color: violet;
+                text-align: center;
+            }
+        </style>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenido a mi primera pagina</h1>
+        </header>
+
+        <section>
+            <p>Esto es un parrafo de ejemplo.</p>
+            <img src="/img/java.webp" alt="???" width="20%">
+            <br>
+            <a href="">Enlace a otro sitio web</a>
+        </section>
+
+        <section>
+            <h2>Lenguajes de programacion</h2>
+            <p>
+                <strong>Se utilizan para creacion de software con IA</strong>
+                <br>
+                <em>Son fundamentales en la actualidad</em>
+                <br>
+                <u>No son extraños</u>
+            </p>
+        </section>
+
+        <section>
+            <h3>Algunos lenguajes de programacion</h3>
+            <ol>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Php</li>
+            </ol>
+            <h4>Algunos Frameworks</h4>
+            <ul>
+                <li>Spring</li>
+                <li>Django</li>
+                <li>Ruby on rails</li>
+            </ul>
+        </section>
+
+        <section>
+            <h5>Algunas cosas de los lenguajes</h5>
+            <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Uso</th>
+                </tr>
+                <tr>
+                    <td>Kotlin</td>
+                    <td>Lenguaje de programacion basado en Java</td>
+                    <td>desarrollo movil</td>
+                </tr>
+                 <tr>
+                    <td>Php</td>
+                    <td>Lenguaje de programacion web, el 80% de las paginas del </td>
+                    <td>desarrollo web</td>
+                </tr>
+                 <tr>
+                    <th>Java</th>
+                    <th>Lenguaje de programacion de escritorio</th>
+                    <th>desarrollo</th>
+                </tr>
+            </table>
+        </section>
+
+        <br><br>
+
+        <section>
+            <div class="nosotros">
+            <h6>Formulario de lenguajes</h6>
+            <form>
+                <label>Nombre</label>
+                <br>
+                <input type="text" name="nombre">
+
+                <br><br>
+
+                <label>Correo</label>
+                <br>
+                <input type="email" name="correo">
+
+                <br><br>
+
+                <label>Contraseña</label>
+                <br>
+                <input type="password" name="clave">
+
+                <br><br>
+
+                <label>Edad</label>
+                <br>
+                <input type="number" name="edad">
+
+                <br><br>
+
+                <label>Fecha de nacimiento</label>
+                <br>
+                <input type="date" name="fecha">
+
+                <br><br>
+
+                <label>Genero</label>
+                <br>
+                <input type="radio" name="genero" value="M"> Masculino
+                <input type="radio" name="genero" value="F"> Femenino
+
+                <br><br>
+
+                <label>Lenguajes</label>
+                <br>
+                <input type="checkbox" name="java"> Java
+                <input type="checkbox" name="python"> Python
+
+                <br><br>
+
+                <label>Ciudad</label>
+                <br>
+                <select name="ciudad">
+                    <option>Tulua</option>
+                    <option>Cali</option>
+                    <option>Buga</option>
+                </select>
+
+                <br><br>
+
+                <label>Comentarios</label>
+                <br>
+                <textarea name="comentarios"></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+        </section>
+
+        <section>
+            <h1 style="color: darkcyan">Hola mundo</h1>
+        </section>
+
+        <div class="mi-contenedor">
+            <h2>Contenedor</h2>
+            <p>Tiene su propio estilo</p>
+        </div>
+
+        <div class="nosotros">
+            <p id="miParrafo">Este es el parrafo viejo</p>
+            <br><br>
+            <button onclick="mostrarAlerta()">Haz Click</button>
+        </div>
+
+        <div class="mi-contenedor">
+            <p>
+                Numero de clicks: <span id="cont">0</span>s
+            </p>
+            <br><br>
+            <button onclick="contar()">Contar clicks</button>
+        </div>
+
+        <footer>
+            <p>Todos los derechos reservados a la IA de su preferencia</p>
+        </footer>
+
+            <script src="js/script.js"></script>
+
+    </body>
+</html>

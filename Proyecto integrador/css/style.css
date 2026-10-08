@@ -1,0 +1,29 @@
+h1{
+    color: #a1b5f1;
+    font-size: 24px;
+}
+
+p{
+    color: #2a2828;
+    line-height: 1.5;
+}
+
+.mi-contenedor{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.nosotros{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+body{
+    background-color: #666;
+}
